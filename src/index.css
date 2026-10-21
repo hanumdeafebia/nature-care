@@ -135,3 +135,20 @@ body {
   color: #d32f2f;
   font-weight: bold;
 }
+.filter-kategori {
+  margin: 24px 0;
+}
+
+.filter-kategori select {
+  padding: 8px 12px;
+  border: 1px solid #2e7d32;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.daftar-produk {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
