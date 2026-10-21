@@ -126,3 +126,12 @@ body {
   border-radius: 20px;
   font-size: 14px;
 }
+.status-tersedia {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.status-habis {
+  color: #d32f2f;
+  font-weight: bold;
+}

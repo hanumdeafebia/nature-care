@@ -11,7 +11,10 @@ export default function Naturecare({
       <p>{manfaat}</p>
       <p>Harga: Rp{harga.toLocaleString("id-ID")}</p>
       <p>
-        Status: {tersedia ? "Tersedia" : "Tidak tersedia"}
+        Status:{" "}
+        <span className={tersedia ? "status-tersedia" : "status-habis"}>
+          {tersedia ? "Tersedia" : "Tidak tersedia"}
+        </span>
       </p>
     </section>
   );
