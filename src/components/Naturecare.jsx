@@ -7,6 +7,7 @@ export default function Naturecare({
   return (
     <section className="produk">
       <h2>{nama}</h2>
+      <p className="product-category">Perawatan Alami</p>
       <p>{manfaat}</p>
       <p>Harga: Rp{harga.toLocaleString("id-ID")}</p>
       <p>
